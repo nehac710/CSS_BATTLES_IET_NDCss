@@ -2,26 +2,31 @@ body{
     background-color: aquamarine;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.circle1{
-    height: 600px;
-    width: 600px;
+outer-1 {
+    background-color:rgb(24, 93, 48);
+    width:400px; /* You can define it by % also */
+    height:400px; /* You can define it by % also*/
+    position:relative;
+    border:1px solid black;
     border-radius: 50%;
-    background-color: rgb(51, 118, 51);
-    position: relative;
-}
-
-.circle2{
-    top: 3%; left:3%;
-    width:90%;
-    height:90%;
-    position: relative;
+    }
+    .inner-1 {
+    background-color:rgb(28, 104, 28);
+     top: 10%; left:10%; /* of the container */
+    width:80%; /* of the outer-1 */
+    height:80%; /* of the outer-1 */
+    position: absolute;
+    
     border-radius: 50%;
-    background-color: aquamarine;
-}
+    }
+    .inner-2 {
+    background-color:aquamarine;
+     top: 20%; left:20%; /* of the container */
+    width:60%; /* of the inner-1 */
+    height:60%; /* of the inner-1 */
+    position: absolute;
+    
+    border-radius:50%;
+    }
+    
 
