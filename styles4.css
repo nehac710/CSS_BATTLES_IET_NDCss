@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.circle1{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background-color: rgb(51, 118, 51);
+    position: relative;
+}
+
+.circle2{
+    top: 3%; left:3%;
+    width:90%;
+    height:90%;
+    position: relative;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+

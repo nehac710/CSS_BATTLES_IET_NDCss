@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    height: 748px;
+    width: 748px;
+    display: grid;
+    background-color: #4eb7e8;
+    grid-template-rows: 414px 130px 155px;
+  }
+
+  .sky{
+    background-color: #4eb7e8;
+  }
+  .grass{
+    background-color: rgb(79, 211, 39);
+  }
+  .land{
+    background-color: rgb(142, 133, 36);
+  }
